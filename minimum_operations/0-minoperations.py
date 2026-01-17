@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+"""Minimum Operations module."""
 
 
 def minOperations(n):
+    """Calculate minimum operations to get n H characters."""
     if n <= 1:
         return 0
 
